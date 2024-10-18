@@ -16,7 +16,7 @@ h1{
     
 }
 p{
-    color: blue;
+    color: rgb(5, 5, 51);
     font-size: 100px;
     text-align: center;
     margin: 20px 0;
@@ -24,7 +24,7 @@ p{
 
 }
 button{
-    color: rgb(55, 0, 255);
+    color: rgb(37, 22, 90);
     background-color: rgb(134, 137, 182);
     box-shadow: 0 0 20px rgb(13, 0, 128);
     margin-top: 10px;
@@ -34,11 +34,8 @@ button{
 section{
     background-color: rgba(255,  255, blue, 20%);
     padding: 20px;
-    
     flex-direction: column;
     align-items: center;
-    
-   
 }
 body{
    border: 10px solid;
