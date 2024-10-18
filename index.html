@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conta-2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CONTADOR-2</h1>
+    <section>
+    <p>0</p>
+    <button onclick="reiniciar()">Reiniciar</button>
+    <button onclick="Aumentar()">Aumentar</button>
+    <button onclick="Diminuir()">Diminuir</button>
+    </section>
+    <script>
+        let numero = 0;
+        function Aumentar(){
+            numero += 1;
+            MostrarNaTela()
+
+        }
+        function Diminuir(){
+            numero -=1;
+            MostrarNaTela()
+
+        }
+        function reiniciar(){
+            numero = 0;
+            MostrarNaTela()
+        }
+
+        //Pra funcionar kkk
+
+        function MostrarNaTela(){
+            const p =  document.querySelector ("p")
+            p.innerText = numero
+        }
+        
+        MostrarNaTela()
+
+    </script>
+</body>
+</html>
